@@ -1,4 +1,4 @@
-# GPT Chat – AI Chatbot Using OpenAI GPT-4o Mini
+# GPT – Using OpenAI GPT-4o Mini
 
 A fully functional **ChatGPT-like web application** built using the **OpenAI GPT-4o-mini model**, **MERN Stack**, and **Render** for deployment.  
 It allows users to create multiple chat threads, store previous conversations, and interact with AI in real time.
