@@ -8,16 +8,24 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.use(express.json());
-app.use(cors());
+
+app.use(cors({
+    origin: [
+        "http://localhost:5173", 
+        "https://gpt-1-w9o2.onrender.com"
+    ],
+    methods: ["GET", "POST"],
+    credentials: true
+}));
+
 app.use("/api", chatRoutes);
 
 const connectDB = async () => {
     try {
         await mongoose.connect(process.env.MONGODB_URI, {
-            useNewUrlParser: true,
-            useUnifiedTopology: true
+            useNewUrlParser: true
         });
-        console.log("Connected with Database!");
+        console.log("Connected with Database");
         app.listen(PORT, () => {
             console.log(`Server running on port ${PORT}`);
         });
@@ -28,6 +36,7 @@ const connectDB = async () => {
 };
 
 connectDB();
+
 
 
 
