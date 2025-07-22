@@ -7,7 +7,7 @@ It allows users to create multiple chat threads, store previous conversations, a
 ## Screenshots
 
 ### 🖥️ Chat Interface
-![GPT Chat UI](./Frontend/src/assets/gpt-ui.png)
+![GPT Chat UI](Frontend/src/assets/Img GPT.png)
 
 
 ## Features
