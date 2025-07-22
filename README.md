@@ -30,3 +30,6 @@ It allows users to create multiple chat threads, store previous conversations, a
 
 ---
 
+## Contributors
+- **Harsh Kumar** - Developer
+
