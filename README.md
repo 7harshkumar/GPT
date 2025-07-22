@@ -4,6 +4,11 @@ A fully functional **ChatGPT-like web application** built using the **OpenAI GPT
 It allows users to create multiple chat threads, store previous conversations, and interact with AI in real time.
 
 ---
+## Screenshots
+
+### 🖥️ Chat Interface
+![GPT Chat UI](./Frontend/src/assets/gpt-ui.png)
+
 
 ## Features
 
