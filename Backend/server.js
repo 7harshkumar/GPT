@@ -14,7 +14,7 @@ app.use(cors({
         "http://localhost:5173", 
         "https://gpt-1-w9o2.onrender.com"
     ],
-    methods: ["GET", "POST"],
+    methods: ["GET", "POST", "DELETE", "OPTIONS"],
     credentials: true
 }));
 
